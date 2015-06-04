@@ -57,7 +57,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HeartBeat.cs" />
+    <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
+    <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Hub.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Myo.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Pose.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Quaternion.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\Vector3.cs" />
+    <Compile Include="Assets\Myo\Scripts\Myo.NET\libmyo.cs" />
+    <Compile Include="Assets\Myo\Scripts\ThalmicHub.cs" />
+    <Compile Include="Assets\Myo\Scripts\ThalmicMyo.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPostRender.cs" />
@@ -91,8 +102,12 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\Scripts\Flashlight.cs" />
+    <Compile Include="Assets\Scripts\HeartBeat.cs" />
+    <Compile Include="Assets\Scripts\JointOrientation.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Myo\README-MyoUnity.txt" />
     <None Include="Assets\OVR\Moonlight\Materials\GlobalMenu\OVRCutoutRamp.shader" />
     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
