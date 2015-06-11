@@ -8,6 +8,7 @@ public class DoorOpening : MonoBehaviour {
     private bool keyState = false;
     private bool prevkeyKeystate = false;
     private bool candleOut = false;
+	public ParticleSystem flame;
 	// Use this for initialization
 	void Start () {
 	
@@ -40,6 +41,7 @@ public class DoorOpening : MonoBehaviour {
                         Vector3 rotatie = new Vector3(0, 90, 0);
                         obj.transform.DORotate(rotatie, 3);
                         isOpen = true;
+						flame.gameObject.SetActive(true);
                     }
                     else if (isOpen == true)
                     {
@@ -47,6 +49,7 @@ public class DoorOpening : MonoBehaviour {
                         Vector3 rotatie = new Vector3(0, 0, 0);
                         obj.transform.DORotate(rotatie, 3);
                         isOpen = false;
+						flame.gameObject.SetActive(false);
                     }
                 }
                 prevkeyKeystate = keyState;
