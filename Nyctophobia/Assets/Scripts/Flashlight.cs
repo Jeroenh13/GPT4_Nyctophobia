@@ -13,12 +13,14 @@ public class Flashlight : MonoBehaviour {
 	private Pose _lastPose = Pose.Unknown;
     public GameObject Player;
     public int speed;
+    public GameObject LightObject;
+    public CharacterController controller;
 
 	void Update()
 	{
-
-
-		ThalmicMyo thalmicMyo = myo.GetComponent<ThalmicMyo> ();
+        
+		ThalmicMyo thalmicMyo = myo.GetComponent<ThalmicMyo>();
+        LightObject.transform.rotation = thalmicMyo.transform.rotation;
 
 		//InvokeRepeating("Repeat", 1, 1);
 		InvokeRepeating ("Repeat", 0, 10);
@@ -32,22 +34,23 @@ public class Flashlight : MonoBehaviour {
 		}
         if (Input.GetKey(KeyCode.A))
         {
-            Quaternion lookDir = Player.transform.rotation;
-            Debug.Log(lookDir.z);
-            Player.transform.rotation = Quaternion.Lerp(Player.transform.rotation, lookDir, Time.deltaTime * speed);
+            transform.Rotate(0, Input.GetAxis("Horizontal") / 1, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            Vector3 lookDir = Player.transform.position;
-            lookDir.y = 0; // keep only the horizontal direction
-            lookDir.x = 0; // keep only the horizontal direction
-            lookDir.z = lookDir.z + 2;
-            Quaternion curRot = new Quaternion();
-            curRot = Player.transform.rotation;
-            curRot.SetLookRotation(lookDir);
-            Player.transform.rotation = curRot;
+            transform.Rotate(0, Input.GetAxis("Horizontal") * 2, 0);
+       }
+        if (Input.GetKey(KeyCode.W))
+        {
+            
+            forward = Player.transform.TransformDirection(Vector3.forward);
+            controller.SimpleMove(forward);
         }
-
+        if (Input.GetKey(KeyCode.S))
+        {
+            forward = Player.transform.TransformDirection(Vector3.forward);
+            controller.SimpleMove(-forward);
+        }
 
 		if (thalmicMyo.pose != _lastPose) {
 			_lastPose = thalmicMyo.pose;
