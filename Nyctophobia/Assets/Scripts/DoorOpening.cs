@@ -27,12 +27,13 @@ public class DoorOpening : MonoBehaviour {
                 {
                     candleOut = true;
                     Debug.Log("Kaars is uit");
+					flame.gameObject.SetActive(false);
                 }
             }
             if (obj.tag == "door" && candleOut == true)
             {
                 Debug.Log("ja");
-                obj.GetComponentInChildren<Renderer>().material.color = Color.yellow;
+               // obj.GetComponentInChildren<Renderer>().material.color = Color.yellow;
                 if (keyState && !prevkeyKeystate)
                 {
                     if (isOpen == false)
@@ -41,15 +42,13 @@ public class DoorOpening : MonoBehaviour {
                         Vector3 rotatie = new Vector3(0, 90, 0);
                         obj.transform.DORotate(rotatie, 3);
                         isOpen = true;
-						flame.gameObject.SetActive(true);
                     }
                     else if (isOpen == true)
                     {
                         Debug.Log("Used");
                         Vector3 rotatie = new Vector3(0, 0, 0);
                         obj.transform.DORotate(rotatie, 3);
-                        isOpen = false;
-						flame.gameObject.SetActive(false);
+						isOpen = false;
                     }
                 }
                 prevkeyKeystate = keyState;
