@@ -11,6 +11,8 @@ public class Flashlight : MonoBehaviour {
 	public Vector3 forward;
 	public int time = 800;
 	private Pose _lastPose = Pose.Unknown;
+    public GameObject Player;
+    public int speed;
 
 	void Update()
 	{
@@ -28,21 +30,32 @@ public class Flashlight : MonoBehaviour {
 			CancelInvoke("Repeat");
 			MyLight.intensity = 8;
 		}
-
+        if (Input.GetKey(KeyCode.A))
+        {
+            Quaternion lookDir = Player.transform.rotation;
+            Debug.Log(lookDir.z);
+            Player.transform.rotation = Quaternion.Lerp(Player.transform.rotation, lookDir, Time.deltaTime * speed);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            Vector3 lookDir = Player.transform.position;
+            lookDir.y = 0; // keep only the horizontal direction
+            lookDir.x = 0; // keep only the horizontal direction
+            lookDir.z = lookDir.z + 2;
+            Quaternion curRot = new Quaternion();
+            curRot = Player.transform.rotation;
+            curRot.SetLookRotation(lookDir);
+            Player.transform.rotation = curRot;
+        }
 
 
 		if (thalmicMyo.pose != _lastPose) {
 			_lastPose = thalmicMyo.pose;
 		}
-
-
-			if(Input.GetKey(KeyCode.A))
-		   	{
-				forward = transform.TransformDirection(Vector3.left * 5);
-			}
+			
 
 			if (Input.GetKey (KeyCode.D)) {
-			forward = transform.TransformDirection(Vector3.right * 5);
+                //Player.transform.position.z = Player.transform.position.z - 5;
 			}
 
 			if (Input.GetKey (KeyCode.Q)) {
@@ -55,12 +68,24 @@ public class Flashlight : MonoBehaviour {
 
 			if (thalmicMyo.pose == Pose.Fist || Input.GetKey(KeyCode.W))
 		    {
-			forward = transform.TransformDirection(Vector3.forward * 5);
+                forward = Player.transform.TransformDirection(Vector3.forward);
+                Player.transform.position += forward * speed * Time.deltaTime;
+                /*
+                Vector3 vec = new Vector3(0,myo.transform.eulerAngles.y, 0);
+                Player.transform.position += forward * speed * Time.deltaTime;
+                Player.transform.Rotate(vec);
+                 */
 			}
 
-		if (thalmicMyo.pose == Pose.FingersSpread || Input.GetKey(KeyCode.S)) {
-			forward = transform.TransformDirection(Vector3.back * 5);
-		}
+		    if (thalmicMyo.pose == Pose.FingersSpread || Input.GetKey(KeyCode.S)) {
+                forward = Player.transform.TransformDirection(Vector3.back);
+                Player.transform.position += forward * speed * Time.deltaTime;
+                /*
+                Vector3 vec = new Vector3(0,myo.transform.eulerAngles.y, 0);
+                Player.transform.position += forward * speed * Time.deltaTime;
+                Player.transform.Rotate(vec);
+                 */
+		    }
 
 
 	}
