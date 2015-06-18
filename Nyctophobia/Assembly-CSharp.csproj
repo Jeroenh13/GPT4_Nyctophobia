@@ -46,6 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ActionButtonScript.cs" />
+     <Compile Include="Assets\Candle1.cs" />
+     <Compile Include="Assets\Door1.cs" />
+     <Compile Include="Assets\Key.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
      <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
@@ -91,13 +95,19 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\Scissor.cs" />
      <Compile Include="Assets\Scripts\DoorOpening.cs" />
      <Compile Include="Assets\Scripts\Flashlight.cs" />
      <Compile Include="Assets\Scripts\HeartBeat.cs" />
      <Compile Include="Assets\Scripts\JointOrientation.cs" />
      <Compile Include="Assets\Trigger.cs" />
+     <Compile Include="Assets\Usable.cs" />
+     <Compile Include="Assets\WateringCan.cs" />
+     <Compile Include="Assets\key2.cs" />
+     <Compile Include="Assets\plantpot.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Outlined-Silhouette Only.shader" />
      <None Include="Assets\DOTween\DOTween43.xml" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -113,17 +123,29 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween 1">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween44">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween46">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween47">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween50">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween51">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

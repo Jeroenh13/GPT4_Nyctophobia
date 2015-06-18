@@ -15,6 +15,7 @@ public class Flashlight : MonoBehaviour {
     public int speed;
     public GameObject LightObject;
     public CharacterController controller;
+    public GameObject directional;
 
 	void Update()
 	{
@@ -26,19 +27,19 @@ public class Flashlight : MonoBehaviour {
 		InvokeRepeating ("Repeat", 0, 10);
 
 		if (time % 100 == 0 ){
-			MyLight.intensity -= 1;
+			//MyLight.intensity -= 1;
 		}
 		if (MyLight.intensity == 0) {
 			CancelInvoke("Repeat");
-			MyLight.intensity = 8;
+			//MyLight.intensity = 8;
 		}
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(0, Input.GetAxis("Horizontal") / 1, 0);
+            transform.Rotate(0, Input.GetAxis("Horizontal") / 0.5f, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(0, Input.GetAxis("Horizontal") * 2, 0);
+            transform.Rotate(0, Input.GetAxis("Horizontal") * 4, 0);
        }
         if (Input.GetKey(KeyCode.W))
         {
@@ -52,10 +53,15 @@ public class Flashlight : MonoBehaviour {
             controller.SimpleMove(-forward);
         }
 
+        if (Input.GetKey(KeyCode.F))
+        {
+            directional.SetActive(!directional.gameObject.active);
+        }
+
 		if (thalmicMyo.pose != _lastPose) {
 			_lastPose = thalmicMyo.pose;
 		}
-			
+			/*
 
 			if (Input.GetKey (KeyCode.D)) {
                 //Player.transform.position.z = Player.transform.position.z - 5;
@@ -77,7 +83,7 @@ public class Flashlight : MonoBehaviour {
                 Vector3 vec = new Vector3(0,myo.transform.eulerAngles.y, 0);
                 Player.transform.position += forward * speed * Time.deltaTime;
                 Player.transform.Rotate(vec);
-                 */
+                 
 			}
 
 		    if (thalmicMyo.pose == Pose.FingersSpread || Input.GetKey(KeyCode.S)) {
@@ -87,9 +93,9 @@ public class Flashlight : MonoBehaviour {
                 Vector3 vec = new Vector3(0,myo.transform.eulerAngles.y, 0);
                 Player.transform.position += forward * speed * Time.deltaTime;
                 Player.transform.Rotate(vec);
-                 */
+                 
 		    }
-
+    */
 
 	}
 

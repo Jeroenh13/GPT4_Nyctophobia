@@ -54,6 +54,7 @@
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Outlined-Silhouette Only.shader" />
      <None Include="Assets\DOTween\DOTween43.xml" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -72,17 +73,32 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween 1">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween44">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween46">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween47">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween50">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween51">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor 1">
+ <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/Editor/DOTweenEditor 1.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
  <HintPath>D:/Git/GPT4_Nyctophobia/GPT4_Nyctophobia/Nyctophobia/Assets/DOTween/Editor/DOTweenEditor.dll</HintPath>

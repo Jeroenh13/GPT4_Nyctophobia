@@ -52,11 +52,11 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween 1">
+      <HintPath>Assets\DOTween\DOTween 1.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
@@ -64,11 +64,20 @@
     <Reference Include="DOTween43">
       <HintPath>Assets\DOTween\DOTween43.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween44">
+      <HintPath>Assets\DOTween\DOTween44.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween46">
       <HintPath>Assets\DOTween\DOTween46.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween47">
+      <HintPath>Assets\DOTween\DOTween47.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween50">
       <HintPath>Assets\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween51">
+      <HintPath>Assets\DOTween\DOTween51.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +132,7 @@
     <None Include="Assets\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\DOTween\readme.txt" />
     <None Include="Assets\Myo\README-MyoUnity.txt" />
+    <None Include="Assets\Outlined-Silhouette Only.shader" />
     <None Include="Assets\OVR\Moonlight\Materials\GlobalMenu\OVRCutoutRamp.shader" />
     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />

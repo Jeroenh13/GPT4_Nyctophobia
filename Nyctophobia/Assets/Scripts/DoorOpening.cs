@@ -9,6 +9,7 @@ public class DoorOpening : MonoBehaviour {
     private bool prevkeyKeystate = false;
     private bool candleOut = false;
 	public ParticleSystem flame;
+    public GameObject raycastOrigin;
 	// Use this for initialization
 	void Start () {
 	
@@ -17,7 +18,7 @@ public class DoorOpening : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         keyState = Input.GetKey(KeyCode.E);
-        Transform cam = Camera.main.transform;
+        Transform cam = raycastOrigin.transform;
         if (Physics.Raycast(cam.position, cam.forward, out hit, 3f))
         {
             GameObject obj = hit.transform.gameObject;
@@ -32,7 +33,7 @@ public class DoorOpening : MonoBehaviour {
             if (obj.tag == "door" && candleOut == true)
             {
                 Debug.Log("ja");
-                obj.GetComponentInChildren<Renderer>().material.color = Color.yellow;
+                //obj.GetComponentInChildren<Renderer>().material.color = Color.yellow;
                 if (keyState && !prevkeyKeystate)
                 {
                     if (isOpen == false)
