@@ -118,6 +118,9 @@
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
  <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
