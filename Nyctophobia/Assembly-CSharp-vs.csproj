@@ -49,6 +49,7 @@
      <Compile Include="Assets\ActionButtonScript.cs" />
      <Compile Include="Assets\Candle1.cs" />
      <Compile Include="Assets\Door1.cs" />
+     <Compile Include="Assets\ExitScript.cs" />
      <Compile Include="Assets\Key.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
