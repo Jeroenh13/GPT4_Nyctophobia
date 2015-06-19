@@ -50,6 +50,7 @@
      <Compile Include="Assets\Candle1.cs" />
      <Compile Include="Assets\Door1.cs" />
      <Compile Include="Assets\Key.cs" />
+     <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
      <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
@@ -95,11 +96,13 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\RayCast.cs" />
      <Compile Include="Assets\Scissor.cs" />
      <Compile Include="Assets\Scripts\DoorOpening.cs" />
      <Compile Include="Assets\Scripts\Flashlight.cs" />
      <Compile Include="Assets\Scripts\HeartBeat.cs" />
      <Compile Include="Assets\Scripts\JointOrientation.cs" />
+     <Compile Include="Assets\Simple Helvetica\SimpleHelvetica.cs" />
      <Compile Include="Assets\Trigger.cs" />
      <Compile Include="Assets\Usable.cs" />
      <Compile Include="Assets\WateringCan.cs" />
@@ -109,6 +112,7 @@
      <None Include="Assets\DOTween\DOTween50.xml" />
      <None Include="Assets\Outlined-Silhouette Only.shader" />
      <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Simple Helvetica\readme.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\DOTween\DOTween46.xml" />

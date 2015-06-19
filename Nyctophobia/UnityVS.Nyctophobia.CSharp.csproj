@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -103,6 +97,7 @@
     <Compile Include="Assets\Candle1.cs" />
     <Compile Include="Assets\Door1.cs" />
     <Compile Include="Assets\Key.cs" />
+    <Compile Include="Assets\MouseLook.cs" />
     <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
     <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
     <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
@@ -148,11 +143,13 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\RayCast.cs" />
     <Compile Include="Assets\Scissor.cs" />
     <Compile Include="Assets\Scripts\DoorOpening.cs" />
     <Compile Include="Assets\Scripts\Flashlight.cs" />
     <Compile Include="Assets\Scripts\HeartBeat.cs" />
     <Compile Include="Assets\Scripts\JointOrientation.cs" />
+    <Compile Include="Assets\Simple Helvetica\SimpleHelvetica.cs" />
     <Compile Include="Assets\Trigger.cs" />
     <Compile Include="Assets\Usable.cs" />
     <Compile Include="Assets\WateringCan.cs" />
@@ -177,6 +174,7 @@
     <None Include="Assets\Plugins\x86\donotdelete.txt" />
     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Simple Helvetica\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

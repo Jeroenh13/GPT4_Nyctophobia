@@ -92,6 +92,7 @@
      <None Include="Assets\DOTween\DOTween50.xml" />
      <None Include="Assets\Outlined-Silhouette Only.shader" />
      <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Simple Helvetica\readme.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\DOTween\DOTween46.xml" />
