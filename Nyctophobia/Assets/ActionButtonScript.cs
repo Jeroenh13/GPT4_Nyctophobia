@@ -20,34 +20,34 @@ public class ActionButtonScript : MonoBehaviour
         Transform cam = raycastOrigin.transform;
         if (Physics.Raycast(cam.position, cam.forward, out hit, 3F))
         {
-            if (hit.transform.gameObject.tag != "usable")
+            if (hit.transform.gameObject.tag == "usable")
             {
-                highlightObject(obj, Color.white);
-            }
-            obj = hit.transform.gameObject;
-
-
-            if (obj.tag == "usable")
-            {
+                obj = hit.transform.gameObject;
                 Usable u = obj.GetComponent<Usable>();
                 if (u.isActive())
                 {
-                    highlightObject(obj, Color.yellow);
+                    u.highlight();
                     if (keyState && !prevKeyState) //Button is pressed once
                     {
                         u.doAction();
                     }
                 }
-
-
-
+            }
+            else
+            {
+                if(obj != null)
+                {
+                    Usable u = obj.GetComponent<Usable>();
+                    u.restoreTexture();
+                }
             }
         }
         else
         {
             if (obj != null)
             {
-                highlightObject(obj, Color.white);
+                Usable u = obj.GetComponent<Usable>();
+                u.restoreTexture();
             }
         }
 

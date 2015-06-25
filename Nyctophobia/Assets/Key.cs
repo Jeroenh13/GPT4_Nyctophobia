@@ -21,4 +21,5 @@ public class Key : Usable
         PlayerPrefs.SetInt("hasKey1", 1);
         gameObject.SetActive(false);
     }
+
 }

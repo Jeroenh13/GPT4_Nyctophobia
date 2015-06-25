@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -105,40 +105,40 @@
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
      <None Include="Assets\DOTween\readme.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="DOTween 1">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween44">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween47">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTween51">
- <HintPath>C:/Users/Mnesymne/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
+ <HintPath>C:/Users/Pieter/Documents/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
