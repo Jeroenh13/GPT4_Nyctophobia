@@ -9,7 +9,7 @@ public class Candle1 : Usable {
     public ParticleSystem flame;
     public override void doAction()
     {
-        doorToRotate.transform.DORotate(new Vector3(0, -116, 270), 1);
+        doorToRotate.transform.DORotate(new Vector3(0, -18, -96), 1);
         canvasToRemove.gameObject.SetActive(false);
         flame.gameObject.SetActive(false);
         setActive(false);

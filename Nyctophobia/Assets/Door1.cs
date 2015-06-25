@@ -8,9 +8,9 @@ public class Door1 : Usable
 
     public override void doAction()
     {
-        if(PlayerPrefs.GetInt("hasKey1") == 1)
+        if (PlayerPrefs.GetInt("hasKeyHallway") == 1)
         {
-            transform.DORotate(new Vector3(1.525f, -400, -360), 1f);
+            transform.DORotate(new Vector3(0, 450, 0), 1f);
             setActive(false);
         }
         
