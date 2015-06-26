@@ -21,7 +21,7 @@ public class Scared : MonoBehaviour {
         {
             ai.scared = false;
             ai.scaredmeter = 0;
-            ai.range = 10f;
+            ai.range = 4f;
         }
     }
 }

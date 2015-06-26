@@ -24,9 +24,9 @@ public class AstarAI : MonoBehaviour
     private int currentWaypoint = 0;
 
     private Animator anim;
-    public float range = 10f;
-    private float range2 = 10f;
-    private float stop = 2f;
+    public float range = 4f;
+    private float range2 = 4f;
+    private float stop = 2.2f;
     private Transform myTransform;
     public bool scared = false;
     public int scaredmeter = 0;
