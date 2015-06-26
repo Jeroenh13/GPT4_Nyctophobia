@@ -1,5 +1,4 @@
-5.1.0f3:1.9.9.0
-StandaloneWindows
+5.1.0f3:1.9.8.0
 E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
