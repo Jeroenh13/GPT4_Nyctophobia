@@ -34,6 +34,8 @@ public class AstarAI : MonoBehaviour
     public Transform savespot;
     private Transform follow;
 
+    public bool standingstill = false;
+
     public void Awake()
     {
         myTransform = transform;
@@ -72,9 +74,14 @@ public class AstarAI : MonoBehaviour
             range = 100f;
             Debug.Log("target = savespot");
         }
-            
-        //Start a new path to the targetPosition, return the result to the OnPathComplete function
-        seeker.StartPath(transform.position, follow.position, OnPathComplete);
+
+        if (standingstill == false)
+        {
+            //Start a new path to the targetPosition, return the result to the OnPathComplete function
+            seeker.StartPath(transform.position, follow.position, OnPathComplete);
+        }
+        if (standingstill == true)
+            anim.SetBool("Run", false);
 
         if (path == null)
         {
@@ -114,4 +121,4 @@ public class AstarAI : MonoBehaviour
             anim.SetBool("Run", false);
         }
     }
-} 
+}
