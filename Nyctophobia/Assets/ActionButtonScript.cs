@@ -54,23 +54,23 @@ public class ActionButtonScript : MonoBehaviour
         prevKeyState = keyState;
     }
 
-    private void highlightObject(GameObject obj, Color color)
-    {
-        if (obj != null)
-        {
-            Renderer renderer = obj.GetComponent<Renderer>();
-            if (renderer != null)
-            {
-                renderer.material.SetColor("_Color", color);
-            }
-            Renderer[] renderList = obj.GetComponentsInChildren<Renderer>();
-            foreach (Renderer r in renderList)
-            {
-                foreach (Material m in r.materials)
-                {
-                    m.SetColor("_Color", color);
-                }
-            }
-        }
-    }
+    //private void highlightObject(GameObject obj, Color color)
+    //{
+    //    if (obj != null)
+    //    {
+    //        Renderer renderer = obj.GetComponent<Renderer>();
+    //        if (renderer != null)
+    //        {
+    //            renderer.material.SetColor("_Color", color);
+    //        }
+    //        Renderer[] renderList = obj.GetComponentsInChildren<Renderer>();
+    //        foreach (Renderer r in renderList)
+    //        {
+    //            foreach (Material m in r.materials)
+    //            {
+    //                m.SetColor("_Color", color);
+    //            }
+    //        }
+    //    }
+    //}
 }

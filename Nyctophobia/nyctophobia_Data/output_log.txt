@@ -1,51 +1,50 @@
 Initialize engine version: 5.1.0f3 (ec70b008569d)
-[VRDevice] Successfully created device oculus.
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon(TM) R7 Graphics (ID=0x130c)
-    Vendor:   ATI
-    VRAM:     3051 MB
+    Renderer: NVIDIA GeForce GTX 850M       (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     1991 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween 1.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween 1.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween43.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween43.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween44.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween44.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween46.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween46.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween47.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween47.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween50.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween50.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween51.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\DOTween51.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.146 seconds
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween 1.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween 1.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween44.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween44.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween47.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween47.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween51.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\DOTween51.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Git\GPT4_Nyctophobia\GPT4_Nyctophobia\Nyctophobia\nyctophobia_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Desktop\Nyctophobia\nyctophobia_Data\Managed\System.dll (this message is harmless)
 The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1715)
@@ -74,13 +73,6 @@ The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1715)
 
-[Compositor] ERROR: Compositor failed to initialize.
- 
-(Filename:  Line: 46)
-
-Bad config or LibOVR not found. VR disabled.
- 
-(Filename:  Line: 303)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1d38 -> priority: 1 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 197c -> priority: 1 
+  Thread -> id: 1c18 -> priority: 1 

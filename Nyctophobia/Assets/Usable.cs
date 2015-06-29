@@ -28,7 +28,7 @@ public abstract class Usable : MonoBehaviour
 
     void OnGUI()
     {
-        if (highlighted && active && itemName.Trim().ToString().Length > 0)
+        if (highlighted && isActive() && itemName.Trim().ToString().Length > 0)
         {
             Vector3 screenPos = Camera.main.WorldToScreenPoint(this.gameObject.transform.position);
             GUI.Box(new Rect(Screen.width / 2 - 75, Screen.height / 2, 150, 25), itemName);

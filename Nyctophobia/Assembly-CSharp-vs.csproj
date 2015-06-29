@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Program Files/Unity 5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Program Files/Unity 5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -120,13 +120,16 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
-     <Compile Include="Assets\Block.cs" />
      <Compile Include="Assets\Candle1.cs" />
      <Compile Include="Assets\Door1.cs" />
+     <Compile Include="Assets\DoorBedroom.cs" />
+     <Compile Include="Assets\DoorCellar.cs" />
      <Compile Include="Assets\DoorEntree.cs" />
      <Compile Include="Assets\ExitScript.cs" />
      <Compile Include="Assets\Key.cs" />
      <Compile Include="Assets\Key1.cs" />
+     <Compile Include="Assets\Key3.cs" />
+     <Compile Include="Assets\Key4.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\ColorBoxByPose.cs" />
      <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
@@ -182,11 +185,21 @@
      <Compile Include="Assets\Scripts\HeartBeat.cs" />
      <Compile Include="Assets\Scripts\JointOrientation.cs" />
      <Compile Include="Assets\Simple Helvetica\SimpleHelvetica.cs" />
+     <Compile Include="Assets\Switch.cs" />
      <Compile Include="Assets\Trigger.cs" />
      <Compile Include="Assets\Usable.cs" />
      <Compile Include="Assets\WateringCan.cs" />
+     <Compile Include="Assets\fireding.cs" />
+     <Compile Include="Assets\fireplace.cs" />
      <Compile Include="Assets\key2.cs" />
      <Compile Include="Assets\plantpot.cs" />
+     <Compile Include="Assets\rope.cs" />
+     <Compile Include="Assets\screw1.cs" />
+     <Compile Include="Assets\screw2.cs" />
+     <Compile Include="Assets\screw3.cs" />
+     <Compile Include="Assets\screw4.cs" />
+     <Compile Include="Assets\screwdriver.cs" />
+     <Compile Include="Assets\wallpanel.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\DOTween\DOTween50.xml" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
@@ -216,46 +229,46 @@
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Program Files/Unity 5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="DOTween 1">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween 1.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween44">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween44.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween47">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween47.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTween51">
- <HintPath>E:/Gebruiker/Documenten/GitHub/GPT4_Nyctophobia_PTS/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
+ <HintPath>D:/Desktop/Nyctophobia/Assets/DOTween/DOTween51.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>E:/Program Files/Unity 5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
