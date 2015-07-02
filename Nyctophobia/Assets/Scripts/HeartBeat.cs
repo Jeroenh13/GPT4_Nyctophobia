@@ -3,14 +3,19 @@ using System.Collections;
 using System.IO.Ports;
 using UnityEngine.UI;
 using System.Threading;
+using System.Globalization;
 
 public class HeartBeat : MonoBehaviour {
 
     SerialPort stream;
     public Text label;
     public string COM;
-    private string data;
+    private string inputData;
     private Thread updates;
+    public Light spot;
+    public float intensity;
+    public int calibrate;
+    public int cnt = 0;
 
     // Use this for initialization
     void Start()
@@ -35,16 +40,43 @@ public class HeartBeat : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
-        label.text = data;
+        float data = spot.intensity;
+        float output = 0;
+        if (cnt == 80)
+        {
+            if (float.TryParse(inputData, out output))
+            {
+                //if (data > 1 && data < 5)
+                //{
+                    if (output > calibrate)
+                    {
+                        data -= 0.18f;
+                    }
+                    else if (output < calibrate)
+                    {
+                        data += 0.18f;
+                    }
+                    spot.intensity = data;
+                    label.text = data.ToString();
+                //}
+            }
+            cnt = 0;
+        }
+        label.text = inputData;
+        cnt++;
     }
 
     private void GetArduino()
     {
         while (updates.IsAlive)
         {
-            data = stream.ReadLine();
+            inputData = stream.ReadLine();
+            inputData = inputData.Substring(1);
         }
     }
 
+    void OnApplicationQuit()
+    {
+        stream.Close();
+    }
 }
